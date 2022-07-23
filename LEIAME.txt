@@ -7,3 +7,4 @@ TOPICOS A SEREM ABORDADOS:
 4. Atento ao pull request
 5. Trabalhando com o .gitignore
 6. Realizar alguns PULLREQUEST e testá-los
+7. Obter uma reprova no PULLREQUEST
