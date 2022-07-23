@@ -5,4 +5,4 @@ TOPICOS A SEREM ABORDADOS:
 2. VIRTUALENV
 3. PIP
 4. Atento ao pull request
-
+5. Trabalhando com o .gitignore
