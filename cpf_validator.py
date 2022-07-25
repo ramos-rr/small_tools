@@ -1,17 +1,3 @@
-# '''
-# Módulo para a verificação de CPF
-# 1. Considera apenas os números, ignorando os pontos e traços
-# 2. Realiza a contagem de caracteres e retorna Falso se não contiver 11 números
-# 3. Realiza a verificação do dígito, retornando Falso caso esteja errado.
-# 4. Retorna verdadeiro se o CPF for digitado corretamente.
-#
-#     >>> cpf = "325.171.828-25"
-#     True
-#     >>> cpf = 32517182826
-#     False
-# '''
-
-
 def verifique_cpf(cpf) -> bool or int:
     """
     Função que retorna se o CPF digitado é válido. O usuário pode entrar com o CPF juntamente com os pontos e traços
