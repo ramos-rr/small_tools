@@ -59,3 +59,8 @@ def verifique_cpf(cpf) -> bool or int:
                 return False
     cpf = ''.join(cpf_list)
     return cpf
+
+
+if __name__ == '__main__':
+    cpf = verifique_cpf('417993008-03')
+    print(cpf)
