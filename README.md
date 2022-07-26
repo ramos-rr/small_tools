@@ -18,6 +18,11 @@ exclude=.venv<br>
 '''<br>
 3.2. Rodar o teste no terminal: ".venv) flake8"<br><br>
 
+4. ESTABELECIDO O SETUP.PY<br>
+4.1. Para a realização do teste do setup.py, foi criado um VENV na pasta principal do PycharmProjects.<br>
+4.1.1. Utilize o comando "<.venv>pip install -e small_tools" que ele já vai localizar o setup.py
+
+
 
 TOPICOS A SEREM ABORDADOS:
 1. GIT
