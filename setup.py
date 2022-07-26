@@ -97,7 +97,7 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = "small_tools"
+NAME = "small_tools_python"
 DESCRIPTION = "Repository composed by some small Python tools to validade strings, values and others so as to facilitate the coding process"
 AUTHOR = "Rafael Ramos da Silva"
 AUTHOR_EMAIL = "ramos-rr@outlook.com"
@@ -119,7 +119,7 @@ setup(
     package_data=find_package_data(PACKAGE, only_in_packages=False),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
-        "Environment :: Cosole",
+        "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
