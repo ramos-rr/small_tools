@@ -31,7 +31,7 @@ __ version __ = '0.1'<br>
 4.5.1. Utilize o comando "<.venv>pip install -e small_tools" que ele já vai localizar o setup.py<br>
 <br>
 5. FEITO O LANÇAMENTO DO PRIMEIRO RELEASE NO GITHUB<br>
-5.1. Primeiramente, deve-se alinhar todas as versões do PyCharm com o GIT
+5.1. Primeiramente, deve-se alinhar todas as versões do PyCharm com o GIT;
 5.2. Depois de tudo nivelado, digite no terminal " <.venv> git pull origin master (ou nome do repos. principal) "
 5.3. No terminal, definda uma TAG para a última atualização com " _(.venv) git tag 0.1_ "<br>
 5.4. Posteriormente, foi indicado a TAG para ser destacada no GITHUB com o cmdo " _(.venv) git pull --tags_ "<br>
