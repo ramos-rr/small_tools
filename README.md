@@ -53,6 +53,7 @@ __ version __ = '0.1'<br>
 7.2. Atualização dos requirements-dev.txt<br>
 7.3. Criação do índice de cobertura de teste 
 
+<br>Feita instalação do PyTest Coverage<br>
 <br>
 TOPICOS ABORDADOS:<br>
 1. GIT
