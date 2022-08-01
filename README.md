@@ -16,7 +16,7 @@ Leia-me, isto é importante!
 max-line-length=120<br>
 exclude=.venv<br>
 '''<br>
-3.2. Rodar o teste no terminal: ".venv) flake8"<br><br>
+3.2. Rodar o teste no terminal: "(.venv) flake8"<br><br>
 
 4. ESTABELECIDO O SETUP.PY para o lanchamento da biblioteca própria<br>
 4.1. Importado o código para o 'setup.py' de [renzon/tekton-micro](https://github.com/renzon/tekton-micro/blob/master/setup.py)<br>
