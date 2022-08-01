@@ -53,6 +53,19 @@ __ version __ = '0.1'<br>
 7.2. Atualização dos requirements-dev.txt<br>
 7.3. Criação do índice de cobertura de teste<br>
 7.4. PARA O PYTEST COVERAGGE, feita a instalação " _(.venv) pip install pytest-cov_ "<br>
+7.5. Realizados os testes através do PARAMETRIZE " _@pytest.mark.parametrize_ " que possibilita lista de testes 
+individuais no PyTest<br>
+<br>
+8. ESTABELECENDO CONEXOES E TESTES DE BANCO DE DADOS<br>
+8.1. Criadas as Classes Sessão() e Conexao() dento de db.py<br>
+8.2. Criada a Classe Usuario() dentro de models.py<br>
+8.3. Para o teste de SALVAR USUÁRIO e LISTAR USUÁRIO:<br>
+8.3.1. Foi definido o _setup_ de conexao inicial com a abertura da conexao;<br>
+8.3.2. Logo após realizadas as funções desejadas, faz-se o encerramento das conexões com ROLL_BACK(retorna ao estágio
+inicial sem afetar o banco de dados).
+8.4. Criado o MÉTODO CONEXAO() utilizando para tanto o " _@pytest.fixture_ " de forma a fazer com que o teste encontre
+a função _conexao()_ dentro do Script de teste<br>
+
 
 <br>
 TOPICOS ABORDADOS:<br>
@@ -68,4 +81,5 @@ TOPICOS ABORDADOS:<br>
 7.2. Por isso, o jeito mais adequado de se fazer é através do ... <br>
 8. Realizado treinamento para a configuração de setpu.py para instalação de Packages e Libraries<br>
 9. Realizado o primeiro release no [ramos-rr/small_tools/releases](https://github.com/ramos-rr/small_tools/releases)<br>
-10. Inicializados os PYTESTES
+10. Inicializados os PYTESTES<br>
+11. Inicializado estudo de CONEXOES com banco de dados<br>

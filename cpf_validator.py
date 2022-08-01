@@ -4,11 +4,11 @@ def verifique_cpf(cpf) -> bool or int:
     que pos função somente irá considerar os números:
     Ex:
     >>> verifique_cpf('325.171.828-25')
-    '32517182825'
+    32517182825
     >>> verifique_cpf('385259448-07')
-    '38525944807'
+    38525944807
     >>> verifique_cpf('32517182825')
-    '32517182825'
+    32517182825
     >>> verifique_cpf('32517182829')
     False
 
@@ -44,7 +44,7 @@ def verifique_cpf(cpf) -> bool or int:
             if digito_dois != int(cpf_list[-1]):
                 return False
     cpf = ''.join(cpf_list)
-    return cpf
+    return int(cpf)
 
 
 if __name__ == '__main__':
