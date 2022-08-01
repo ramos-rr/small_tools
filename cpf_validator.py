@@ -1,7 +1,7 @@
 def verifique_cpf(cpf) -> bool or int:
     """
     Função que retorna se o CPF digitado é válido. O usuário pode entrar com o CPF juntamente com os pontos e traços
-    que a função somente irá considerar os números:
+    que pos função somente irá considerar os números:
     Ex:
     >>> verifique_cpf('325.171.828-25')
     '32517182825'
@@ -22,8 +22,8 @@ def verifique_cpf(cpf) -> bool or int:
     else:
         somador = 10
         soma = 0
-        for a in range(0, 9):
-            soma += (int(cpf_list[a])*somador)
+        for pos in range(0, 9):
+            soma += (int(cpf_list[pos])*somador)
             somador -= 1
         divisor, resto = divmod(soma, 11)
         digito_um = 11 - resto
@@ -34,8 +34,8 @@ def verifique_cpf(cpf) -> bool or int:
         else:
             somador = 11
             soma = 0
-            for a in range(0, 10):
-                soma += (int(cpf_list[a])*somador)
+            for pos in range(0, 10):
+                soma += (int(cpf_list[pos])*somador)
                 somador -= 1
             divisor, resto = divmod(soma, 11)
             digito_dois = 11 - resto
@@ -48,5 +48,5 @@ def verifique_cpf(cpf) -> bool or int:
 
 
 if __name__ == '__main__':
-    cpf = verifique_cpf('417993008-03')
+    cpf = verifique_cpf('786.605.138-00')
     print(cpf)
