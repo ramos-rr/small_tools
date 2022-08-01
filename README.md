@@ -47,6 +47,11 @@ __ version __ = '0.1'<br>
     6.2. No terminal, escrever o código para a criação do package .DIST:" (.venv) python setup.py sdist "<br><br>
     6.3 Ainda no terminal, fazer o upload do arquivo:" (.venv) twine upload dist/* "<br><br>
     6.4 Após a instalação, colocar as credenciais do PYPI e verificar no site se tudo está funcionando
+>
+7. ESTABELECIMENTO DOS TESTES<br>
+7.1. Instalação do PYTEST " _(.venv) pip install pytest_ "<br>
+7.2. Atualização dos requirements-dev.txt<br>
+7.3. Criação do índice de cobertura de teste 
 
 <br>
 TOPICOS ABORDADOS:<br>
@@ -62,3 +67,4 @@ TOPICOS ABORDADOS:<br>
 7.2. Por isso, o jeito mais adequado de se fazer é através do ... <br>
 8. Realizado treinamento para a configuração de setpu.py para instalação de Packages e Libraries<br>
 9. Realizado o primeiro release no [ramos-rr/small_tools/releases](https://github.com/ramos-rr/small_tools/releases)<br>
+10. Inicializados os PYTESTES
