@@ -48,6 +48,7 @@ __ version __ = '0.1'<br>
     6.3 Ainda no terminal, fazer o upload do arquivo:" (.venv) twine upload dist/* "<br><br>
     6.4 Após a instalação, colocar as credenciais do PYPI e verificar no site se tudo está funcionando
 
+<br>Feita instalação do PyTest Coverage<br>
 <br>
 TOPICOS ABORDADOS:<br>
 1. GIT
