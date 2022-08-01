@@ -56,13 +56,13 @@ __ version __ = '0.1'<br>
 
 <br>
 TOPICOS ABORDADOS:<br>
-1. GIT
-2. VIRTUALENV
-3. PIP
-4. Atento ao pull request
-5. Trabalhando com o ".gitignore"
-5.1. Adicionado "rascunho" no ".gitignore"
-6. Realizar alguns PULLREQUEST e testá-los
+1. GIT<br>
+2. VIRTUALENV<br>
+3. PIP<br>
+4. Atento ao pull request<br>
+5. Trabalhando com o ".gitignore"<br>
+5.1. Adicionado "rascunho" no ".gitignore"<br>
+6. Realizar alguns PULLREQUEST e testá-los<br>
 7. Obter uma reprova no PULLREQUEST <br>
 7.1. cuidado com o comando no terminal 'git reset --hard HEAD^1', pode causar problemas<br>
 7.2. Por isso, o jeito mais adequado de se fazer é através do ... <br>
