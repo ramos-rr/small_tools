@@ -46,8 +46,8 @@ __ version __ = '0.1'<br>
     include LICENCE<br>
     6.2. No terminal, escrever o código para a criação do package .DIST:" (.venv) python setup.py sdist "<br><br>
     6.3 Ainda no terminal, fazer o upload do arquivo:" (.venv) twine upload dist/* "<br><br>
-    6.4 Após a instalação, colocar as credenciais do PYPI e verificar no site se tudo está funcionando
->
+    6.4 Após a instalação, colocar as credenciais do PYPI e verificar no site se tudo está funcionando<br>
+<br>
 7. ESTABELECIMENTO DOS TESTES<br>
 7.1. Instalação do PYTEST " _(.venv) pip install pytest_ "<br>
 7.2. Atualização dos requirements-dev.txt<br>
