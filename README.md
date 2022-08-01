@@ -51,7 +51,8 @@ __ version __ = '0.1'<br>
 7. ESTABELECIMENTO DOS TESTES<br>
 7.1. Instalação do PYTEST " _(.venv) pip install pytest_ "<br>
 7.2. Atualização dos requirements-dev.txt<br>
-7.3. Criação do índice de cobertura de teste 
+7.3. Criação do índice de cobertura de teste<br>
+7.4. PARA O PYTEST COVERAGGE, feita a instalação " _(.venv) pip install pytest-cov_ "<br>
 
 <br>
 TOPICOS ABORDADOS:<br>
